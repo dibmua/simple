@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header class="header">
+        <img class="header-logo" src="image/logo.png" alt="header-logo" />
+        <ul class="header-menu">
+                        <li>
+                            <a class="header-menu__link" href="#">Про нас</a>
+                        </li>
+                        <li>
+                            <a class="header-menu__link" href="#">Каталог</a>
+                        </li>
+                        <li>
+                            <a class="header-menu__link" href="#">Блог</a>
+                        </li>
+                        <li>
+                            <a class="header-menu__link" href="#">Контакти</a>
+                        </li>
+                    </ul>
+         <section>
+            <img class="header-cart" src="image/shopping-bag.png" alt="header-cart" />
+            <span class="total-price"></span>
+         </section>
+    </header>
+<h1>Оформление заказа</h1>
+<section class="row">
+    <section class="col-75">
+        <form class="row">
+            <article class="col-50">
+                <h3>Личные данные</h3>
+                <label for="fname"><i class="fa fa-user"></i> Имя и фамилия</label>
+                <input type="text" id="fname" name="firstname" placeholder="Наталья Иванова">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="name@example.com">
+                <label for="adr"><i class="fa fa-address-card-o"></i> Номер телефона</label>
+                <input type="text" id="adr" name="address" placeholder="+380yyxxxxxxx">
+            </article>
+            <article class="col-50">
+                <h3>Оплата и доставка</h3>
+                <label for="cname">Населенный пункт</label>
+                <input type="text" id="cname" name="cardname" placeholder="Киев">
+                <label for="ccnum">Отделение Новой почты</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="245">
+                <label for="expmonth">Способ оплаты</label>
+                <select>
+                    <option>Наложенный платеж</option>
+                    <option>Оплата на карту Приватбанка</option>
+                </select>
+                <!-- <input type="text" id="expmonth" name="expmonth" placeholder="September"> -->
+          </article>
+        <input type="submit" value="Оформить заказ" class="btn">
+      </form>
+    </section>
+  <div class="col-25">
+      <h3>Ваш заказ<span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4 товара</b></span></h4>
+      <p><a href="#">Товар 1</a> <span class="price">$15</span></p>
+      <p><a href="#">Товар 2</a> <span class="price">$5</span></p>
+      <p><a href="#">Товар 3</a> <span class="price">$8</span></p>
+      <p><a href="#">Товар 4</a> <span class="price">$2</span></p>
+      <hr>
+      <p>Всего<span class="price"><b>$30</b></span></p>
+    </div>
+</section>
+    <footer class="footer">
+        <section class="footer-top">
+            <img class="footer-logo" src="image/logo.png" alt="footer-logo" />
+            <ul class="footer-menu">
+                <li>
+                    <a class="footer-menu__link" href="#">Про нас</a>
+                </li>
+                <li>
+                    <a class="footer-menu__link" href="#">Каталог</a>
+                </li>
+                <li>
+                    <a class="footer-menu__link" href="#">Блог</a>
+                </li>
+                <li>
+                    <a class="footer-menu__link" href="#">Контакти</a>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section class="footer-bottom">
+            <span class="footer-copyright">© Copyright 2020. All right reserved.</span>
+            <a class="footer-instagram" href="#">
+                <img class="footer-instagram__img" src="image/instagram.png" alt="instagram-img" />
+                <span class="footer-instagram__text">instagram_page</span>
+            </a>
+        </section>
+    </footer>
+</body>
+</html>

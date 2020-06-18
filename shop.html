@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Магазин</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="shop.css">
+        <script src="script.js"></script>
+    </head> 
+ 	<body>
+ 	<header class="header">
+        <img class="header-logo" src="image/logo.png" alt="header-logo" />
+        <ul class="header-menu">
+                        <li>
+                            <a class="header-menu__link" href="#">Про нас</a>
+                        </li>
+                        <li>
+                            <a class="header-menu__link" href="#">Каталог</a>
+                        </li>
+                        <li>
+                            <a class="header-menu__link" href="#">Блог</a>
+                        </li>
+                        <li>
+                            <a class="header-menu__link" href="#">Контакти</a>
+                        </li>
+                    </ul>
+         <section>
+	        <img class="header-cart" src="image/shopping-bag.png" alt="header-cart" />
+         	<span class="total-price"></span>
+         </section>
+    </header>
+    <main class="main">
+        <select class="sort" name="orderby" class="orderby" aria-label="Замовлення магазину">
+                    <option value="popularity" selected="selected">Сортировать по популярности</option>
+                    <option value="date">Сортировать по дате добавления</option>
+                    <option value="price">Сортировать по цене: от низкой к высокой</option>
+                    <option value="price-desc">Сортировать по цене: от высокой к низкой</option>
+            </select>
+     <div class="wrap">
+  <aside><!-- Remove aside element if you don't have sidebar -->
+    <div class="sidebar">
+      Contrary to popular belief, Lorem Ipsum is not simply random text. Contrary to popular belief, Lorem Ipsum is not simply random text. 
+    </div>
+  </aside>
+  <article class="product-list">
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Товар 1</span>
+                    <span class="add-to-cart" data-product-price="2">Добавить в корзину →</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Товар 2</span>
+                    <span class="add-to-cart" data-product-price="10">Добавить в корзину →</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Товар 3</span>
+                    <span class="add-to-cart" data-product-price="12">Добавить в корзину →</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Товар 4</span>
+                    <span class="add-to-cart" data-product-price="100">Добавить в корзину →</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Товар 5</span>
+                    <span class="add-to-cart" data-product-price="35">Добавить в корзину →</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Товар 6</span>
+                    <span class="add-to-cart" data-product-price="64">Добавить в корзину →</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Товар 7</span>
+                    <span class="add-to-cart" data-product-price="86">Добавить в корзину →</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Товар 8</span>
+                    <span class="add-to-cart" data-product-price="15">Добавить в корзину →</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Товар 9</span>
+                    <span class="add-to-cart" data-product-price="7">Добавить в корзину →</span>
+                </a>
+            </article>
+  </div>
+</div>
+    </main>
+    <footer class="footer">
+        <section class="footer-top">
+            <img class="footer-logo" src="image/logo.png" alt="footer-logo" />
+            <ul class="footer-menu">
+                <li>
+                    <a class="footer-menu__link" href="#">Про нас</a>
+                </li>
+                <li>
+                    <a class="footer-menu__link" href="#">Каталог</a>
+                </li>
+                <li>
+                    <a class="footer-menu__link" href="#">Блог</a>
+                </li>
+                <li>
+                    <a class="footer-menu__link" href="#">Контакти</a>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section class="footer-bottom">
+            <span class="footer-copyright">© Copyright 2020. All right reserved.</span>
+            <a class="footer-instagram" href="#">
+                <img class="footer-instagram__img" src="image/instagram.png" alt="instagram-img" />
+                <span class="footer-instagram__text">instagram_page</span>
+            </a>
+        </section>
+    </footer>
+    </body>
+</html>

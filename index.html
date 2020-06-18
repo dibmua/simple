@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Етичні люди</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head> 
+ 	<body>
+ 	<header class="header">
+        <img class="header-logo" src="image/logo.png" alt="header-logo" />
+        <ul class="header-menu">
+                        <li>
+                            <a class="header-menu__link" href="#">Про нас</a>
+                        </li>
+                        <li>
+                            <a class="header-menu__link" href="#">Каталог</a>
+                        </li>
+                        <li>
+                            <a class="header-menu__link" href="#">Блог</a>
+                        </li>
+                        <li>
+                            <a class="header-menu__link" href="#">Контакти</a>
+                        </li>
+                    </ul>
+         <section>
+	        <img class="header-cart" src="image/shopping-bag.png" alt="header-cart" />
+         	<span class="total-price"></span>
+         </section>
+    </header>
+    <main class="main">
+        <section class="main-banner">
+            <img class="main-banner__img" src="image/main_img.jpg" alt="main-banner" />
+        </section>
+        <section class="product">
+            <span class="product-title">У нас можно купить</span>
+            <article class="product-list">
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Для нее</span>
+                	<span class="add-to-cart" data-product-price="2">Добавить в корзину</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Для него</span>
+                	<span class="add-to-cart" data-product-price="10">Добавить в корзину</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Для дома</span>
+                	<span class="add-to-cart" data-product-price="12">Добавить в корзину</span>
+                </a>
+                <a class="product-list__item" href="#">
+                    <img class="product-item__img" src="image/product_img.jpg" alt="product-img" />
+                    <span class="product-item__text">Эко аксессуары</span>
+                	<span class="add-to-cart" data-product-price="100">Добавить в корзину</span>
+                </a>
+            </article>   
+        </section>
+        <section class="about">
+            <img class="about-img" src="image/about_img.jpg" alt="about-img" />
+            <article class="about-list">
+                <span class="about-list__title">Товары, которые не вредят планете</span>
+                <p class="about-list__text">Хватит тратить время на поиск этичных товаров, ведь мы уже нашли их и собрали на одном сайте. В магазине представлены исключительно этичные vegan-friendly товары, которые не тестируются на животных, а так же изготовлены из органических растительных ингредиентов. Мы тщательно отбираем компании для сотрудничества и лично проверяем всю продукцию перед продажей. Рецептура и упаковка наших продуктов не вредит окружающей среде, а цены более, чем приятны. </p>
+                <a class="about-list__link" href="#">Больше про нас →</a>
+            </article>
+        </section>
+        <section class="news">
+            <span class="news-title">Последние новости</span>
+            <article class="news-list">  
+                <a class="news-list__item" href="#">
+                    <img class="news-item__img" src="image/news_img.jpg" alt="news-img" />
+                    <span class="news-item__title">Тема статьи</span>
+                    <span class="news-item__text">Читать дальше →</span>
+                </a>
+                <a class="news-list__item" href="#">
+                    <img class="news-item__img" src="image/news_img.jpg" alt="news-img" />
+                    <span class="news-item__title">Тема статьи</span>
+                    <span class="news-item__text">Читать дальше →</span>
+                </a>
+                <a class="news-list__item" href="#">
+                    <img class="news-item__img" src="image/news_img.jpg" alt="news-img" />
+                    <span class="news-item__title">Тема статьи</span>
+                    <span class="news-item__text">Читать дальше →</span>
+                </a>
+            </article>
+        </section>
+        <section class="subscription">
+            <span class="subscription-header">Подпишитесь на наши новости</span>
+            <span class="subscription-title">Получайте последние новости и специальные предложения первыми</span>
+            <form class="subscription-form">
+                <input class="subscription-form__input" type="email" placeholder="Введите свой email" />
+                <button class="subscription-form__submit">Подписаться</button>
+		    </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer-top">
+            <img class="footer-logo" src="image/logo.png" alt="footer-logo" />
+            <ul class="footer-menu">
+                <li>
+                    <a class="footer-menu__link" href="#">Про нас</a>
+                </li>
+                <li>
+                    <a class="footer-menu__link" href="#">Каталог</a>
+                </li>
+                <li>
+                    <a class="footer-menu__link" href="#">Блог</a>
+                </li>
+                <li>
+                    <a class="footer-menu__link" href="#">Контакти</a>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section class="footer-bottom">
+            <span class="footer-copyright">© Copyright 2020. All right reserved.</span>
+            <a class="footer-instagram" href="#">
+                <img class="footer-instagram__img" src="image/instagram.png" alt="instagram-img" />
+                <span class="footer-instagram__text">instagram_page</span>
+            </a>
+        </section>
+    </footer>
+    </body>
+</html>
